@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files (never commit secrets)
+.env
+*.env
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files — raw downloaded market data must not be committed
+# (only results/ artifacts are allowed)
+data/*.csv
+data/*.parquet
+data/*.json
+data/*.pkl
+data/*.h5
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# MLflow
+mlruns/

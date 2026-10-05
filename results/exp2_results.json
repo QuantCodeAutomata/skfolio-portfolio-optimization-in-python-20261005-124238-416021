@@ -1,0 +1,64 @@
+{
+  "experiment": "exp_2",
+  "dataset_metadata": {
+    "n_obs": 2263,
+    "n_assets": 20,
+    "date_start": "2014-01-03",
+    "date_end": "2022-12-28",
+    "frequency": "inferred_daily",
+    "assets": [
+      "AAPL",
+      "AMD",
+      "BAC",
+      "BBY",
+      "CVX",
+      "GE",
+      "HD",
+      "JNJ",
+      "JPM",
+      "KO",
+      "LLY",
+      "MRK",
+      "MSFT",
+      "PEP",
+      "PFE",
+      "PG",
+      "RRC",
+      "UNH",
+      "WMT",
+      "XOM"
+    ],
+    "price_date_start": "1990-01-02",
+    "price_date_end": "2022-12-28"
+  },
+  "factor_columns": [
+    "MTUM",
+    "QUAL",
+    "SIZE",
+    "USMV",
+    "VLUE"
+  ],
+  "train_size": 1810,
+  "test_size": 453,
+  "n_assets": 20,
+  "n_factors": 5,
+  "ridge_alpha": 0.1,
+  "l2_coef": 0.01,
+  "aapl_cap": 0.2,
+  "fit_successful": true,
+  "weights_sum": 1.0,
+  "aapl_weight": 0.04905621568486937,
+  "constraint_full_investment": true,
+  "constraint_aapl_cap_ok": true,
+  "loading_matrix_shape": [
+    20,
+    5
+  ],
+  "top5_weights": {
+    "WMT": 0.05450323284793266,
+    "PG": 0.05410215711956818,
+    "KO": 0.05360833834320322,
+    "JNJ": 0.053577559003524185,
+    "PEP": 0.05310506432310492
+  }
+}

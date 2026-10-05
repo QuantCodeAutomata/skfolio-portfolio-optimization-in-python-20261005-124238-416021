@@ -1,0 +1,54 @@
+{
+  "experiment": "exp_3",
+  "dataset_metadata": {
+    "n_obs": 8312,
+    "n_assets": 20,
+    "date_start": "1990-01-03",
+    "date_end": "2022-12-28",
+    "frequency": "inferred_daily",
+    "assets": [
+      "AAPL",
+      "AMD",
+      "BAC",
+      "BBY",
+      "CVX",
+      "GE",
+      "HD",
+      "JNJ",
+      "JPM",
+      "KO",
+      "LLY",
+      "MRK",
+      "MSFT",
+      "PEP",
+      "PFE",
+      "PG",
+      "RRC",
+      "UNH",
+      "WMT",
+      "XOM"
+    ],
+    "price_date_start": "1990-01-02",
+    "price_date_end": "2022-12-28"
+  },
+  "assets": [
+    "AAPL",
+    "JPM",
+    "LLY"
+  ],
+  "n_hist_obs": 8312,
+  "n_synthetic_obs": 8312,
+  "random_seed": 42,
+  "vine_structure": "<pyvinecopulib.core.RVineStructure>\n2 1 1 \n1 2 \n3 \n",
+  "vine_pair_copula_families_tree1": [
+    "BicopFamily.student",
+    "BicopFamily.student"
+  ],
+  "bivariate_student_t_rho": 0.3254788922263576,
+  "bivariate_student_t_nu": 5.130175202101915,
+  "plots": {
+    "pairwise_scatter": "/workspace/project/results/exp3_pairwise_scatter.png",
+    "student_t_density": "/workspace/project/results/exp3_student_t_copula_density.png"
+  },
+  "deviation": "skfolio 0.6.0 lacks copula module; pyvinecopulib used instead."
+}

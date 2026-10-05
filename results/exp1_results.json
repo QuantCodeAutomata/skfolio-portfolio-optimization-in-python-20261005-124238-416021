@@ -1,0 +1,134 @@
+{
+  "experiment": "exp_1",
+  "dataset_metadata": {
+    "n_obs": 8312,
+    "n_assets": 20,
+    "date_start": "1990-01-03",
+    "date_end": "2022-12-28",
+    "frequency": "inferred_daily",
+    "assets": [
+      "AAPL",
+      "AMD",
+      "BAC",
+      "BBY",
+      "CVX",
+      "GE",
+      "HD",
+      "JNJ",
+      "JPM",
+      "KO",
+      "LLY",
+      "MRK",
+      "MSFT",
+      "PEP",
+      "PFE",
+      "PG",
+      "RRC",
+      "UNH",
+      "WMT",
+      "XOM"
+    ],
+    "price_date_start": "1990-01-02",
+    "price_date_end": "2022-12-28"
+  },
+  "train_size": 6649,
+  "test_size": 1663,
+  "n_frontier_portfolios_train": 100,
+  "n_frontier_portfolios_test": 100,
+  "train_annualized_mean_min": 0.182031082483792,
+  "train_annualized_mean_max": 0.2002659036423191,
+  "test_annualized_mean_min": 0.1910298952125505,
+  "test_annualized_mean_max": 0.20301764806748324,
+  "train_annualized_std_min": 0.18521750615979762,
+  "train_annualized_std_max": 0.1942259704967948,
+  "test_annualized_std_min": 0.18847300607123382,
+  "test_annualized_std_max": 0.19658869134627474,
+  "dominance_fraction_train_over_test": 0.0,
+  "constraint_full_investment": true,
+  "constraint_aapl_cap_ok": true,
+  "plot": "/workspace/project/results/exp1_efficient_frontier.png",
+  "train_frontier_sample": [
+    {
+      "annualized_mean": 0.182031082483792,
+      "annualized_std": 0.18521750615979762
+    },
+    {
+      "annualized_mean": 0.1822143883042052,
+      "annualized_std": 0.18529161353211193
+    },
+    {
+      "annualized_mean": 0.1823985740225628,
+      "annualized_std": 0.18536617428334587
+    },
+    {
+      "annualized_mean": 0.18258277256001829,
+      "annualized_std": 0.18544109112648488
+    },
+    {
+      "annualized_mean": 0.18276697060632863,
+      "annualized_std": 0.18551636294822516
+    },
+    {
+      "annualized_mean": 0.18295116831566305,
+      "annualized_std": 0.18559198976580105
+    },
+    {
+      "annualized_mean": 0.1831357832192944,
+      "annualized_std": 0.18566813841507762
+    },
+    {
+      "annualized_mean": 0.18331972358705909,
+      "annualized_std": 0.18574439464461126
+    },
+    {
+      "annualized_mean": 0.18350382231816337,
+      "annualized_std": 0.18582106315920402
+    },
+    {
+      "annualized_mean": 0.18368802329595582,
+      "annualized_std": 0.1858981215481491
+    }
+  ],
+  "test_frontier_sample": [
+    {
+      "annualized_mean": 0.1910298952125505,
+      "annualized_std": 0.18847300607123382
+    },
+    {
+      "annualized_mean": 0.1911504686579309,
+      "annualized_std": 0.1885445042017696
+    },
+    {
+      "annualized_mean": 0.19127155970070378,
+      "annualized_std": 0.1886167608793041
+    },
+    {
+      "annualized_mean": 0.19139265757980065,
+      "annualized_std": 0.1886892368286433
+    },
+    {
+      "annualized_mean": 0.19151375441628696,
+      "annualized_std": 0.18876192194022667
+    },
+    {
+      "annualized_mean": 0.19163484962095995,
+      "annualized_std": 0.1888348142154279
+    },
+    {
+      "annualized_mean": 0.19175631051264888,
+      "annualized_std": 0.18890840471431322
+    },
+    {
+      "annualized_mean": 0.19187722478892436,
+      "annualized_std": 0.18898151398318921
+    },
+    {
+      "annualized_mean": 0.19199825681967894,
+      "annualized_std": 0.18905494824885957
+    },
+    {
+      "annualized_mean": 0.19211936732009446,
+      "annualized_std": 0.1891286917962135
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+skfolio==0.6.0
+scikit-learn>=1.5.0
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.14.0
+matplotlib>=3.8.0
+pyvinecopulib>=0.6.3
+copulae>=0.7.9
+pytest>=7.0.0
+python-dotenv>=1.0.0
